@@ -1,0 +1,2 @@
+mean_speed,std_speed,max_speed,mean_accelerator,std_accelerator,max_accelerator,mean_brake,max_brake,tempo_con_freno,mean_rpm,std_rpm,gear_changes,mean_fuelRate,max_fuelRate,distance_traveled,duration_sec,stile_guida
+85.69035039519845,13.283433020967205,101.4,11.00633162855573,30.31695800755923,100.0,1133.4294771545713,1272,149,1446.1071051185595,180.4284266285882,140,29.403512405427108,82.0,297219,23659,calmo-ma-scarsoControllo

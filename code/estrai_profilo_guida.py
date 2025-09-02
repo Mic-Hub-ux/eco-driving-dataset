@@ -32,7 +32,7 @@ profilo = {
 
     "mean_brake": df["brakePressure"].mean(),
     "max_brake": df["brakePressure"].max(),
-    "tempo_con_freno": (df["brakePressure"] > 0).sum(),
+    "breake_time": (df["brakePressure"] > 0).sum(),
 
     "mean_rpm": df["rpm"].mean(),
     "std_rpm": df["rpm"].std(),
