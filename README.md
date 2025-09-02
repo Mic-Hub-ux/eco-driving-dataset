@@ -16,6 +16,9 @@ I dati raccolti includono simulazioni di conducenti in ambienti virtuali, con pa
 - `img/` – Immagini e grafici generati dal codice, inclusi scatterplot e visualizzazioni dei dati.  
 - `input_dataset/` – File `.csv` relativi alle singole guide utilizzate come input per la generazione del dataset.  
 - `past_life/` – Codice precedente o di prova, dataset e immagini di test; funziona ma non viene più utilizzato nella pipeline principale.
+- `coerenza/` - Contiene il codice per generare un profilo di guida assegnandogli un’etichetta **personalizzata**, quindi non calcolata tramite IDS.
+- `savage/` - Contiene il codice per generare un **profilo di guida singolo** a partire da un profilo di guida già caricato.
+
 
 Per maggiori informazioni sui file contenuti nelle singole cartelle, si consiglia di consultare i **README locali** presenti in ogni cartella (quando disponibili).
 
