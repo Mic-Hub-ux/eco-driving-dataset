@@ -12,7 +12,7 @@ from trend_classification import trend_classification
 input_name = input("Nome file guida da analizzare:").strip()
 input_path = os.path.join("../input_dataset", input_name)
 if not os.path.exists(input_path):
-    print(f"❌ File non trovato: {input_path}")
+    print(f" File non trovato: {input_path}")
     exit()
 
 df = pd.read_csv(input_path)
@@ -118,5 +118,5 @@ else:
     df_cumulativo = df_profilo
 
 df_cumulativo.to_csv(output_path, index=False)
-print("\n✅ Profilo aggiunto a ../dataset_finale/dataset_profilato.csv")
+print("\nProfilo aggiunto a ../dataset_finale/dataset_profilato.csv")
 print(df_profilo.T)
