@@ -24,4 +24,4 @@ Per maggiori informazioni sui file contenuti nelle singole cartelle, si consigli
 ## Come clonare il repository
 
 ```bash
-git clone https://github.com/<tuo-username>/<nome-repository>.git
+git clone https://github.com/<tuo-username>/eco-driving-dataset.git
