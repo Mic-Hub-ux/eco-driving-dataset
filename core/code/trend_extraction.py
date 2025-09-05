@@ -219,20 +219,7 @@ def trend_extraction(idDevice, vehicle, timestamp, vehicleData, real_dict):
     }
     # Path to the JSON file
     file_path = "Analysis/data/transitori.json"
-
-    # === AGGIUNTA FONDAMENTALE ===
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
-
-    # Check if the file exists and is not empty
-    if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
-        with open(file_path, "r") as infile:
-            data = json.load(infile)
-    else:
-        data = []
-
-    # Append the new data
-    data.append(output_dict)
-
+    data=[output_dict]
     # Write the updated data back to the file
     with open(file_path, "w") as outfile:
         json.dump(data, outfile, cls=NumpyArrayEncoder, indent=4)
