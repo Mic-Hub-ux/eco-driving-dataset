@@ -11,10 +11,7 @@ I dati raccolti includono simulazioni di conducenti in ambienti virtuali, con pa
 
 ## Struttura del repository
 
-- `code/` – Codice sorgente utile alla costruzione del dataset e all’analisi dei dati.  
-- `dataset_finale/` – Dataset finale contenente le informazioni relative a tutte le sessioni di guida raccolte.  
-- `img/` – Immagini e grafici generati dal codice, inclusi scatterplot e visualizzazioni dei dati.  
-- `input_dataset/` – File `.csv` relativi alle singole guide utilizzate come input per la generazione del dataset.  
+- `core/` – Contiene il core dell'applicazione e le sue funzioni principali   
 - `past_life/` – Codice precedente o di prova, dataset e immagini di test; funziona ma non viene più utilizzato nella pipeline principale.
 - `coerenza/` - Contiene il codice per generare un profilo di guida assegnandogli un’etichetta **personalizzata**, quindi non calcolata tramite IDS.
 - `savage/` - Contiene il codice per generare un **profilo di guida singolo** a partire da un profilo di guida già caricato.
