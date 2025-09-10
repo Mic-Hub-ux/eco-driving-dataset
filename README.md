@@ -21,8 +21,7 @@ Per maggiori informazioni sui file contenuti nelle singole cartelle, si consigli
 
 ---
 ## Presentazione
-Puoi visualizzare la presentazione su Canva al seguente link:  
-[👉 Clicca qui per aprire le slide](https://www.canva.com/design/DAGui6P6gBs/Wc18rbvDtTe9AN3NioNMmw/edit?utm_content=DAGui6P6gBs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Puoi visualizzare la presentazione del progetto [👉 qui](https://www.canva.com/design/DAGui6P6gBs/Wc18rbvDtTe9AN3NioNMmw/edit?utm_content=DAGui6P6gBs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 ## Come clonare il repository
